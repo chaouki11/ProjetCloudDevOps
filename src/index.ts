@@ -1,4 +1,9 @@
-import { helloWorld } from './hello-world';
+const { app, port } = require("./server");
+import { getSystemInformation } from "./sysinfo";
 
-const greet = helloWorld();
-console.log(greet);
+
+
+app.listen(port, async () => {
+    //console.log((await (getSystemInformation())).cpu);
+  console.log(`Server is running on port ${port}`);
+});
