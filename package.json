@@ -1,7 +1,7 @@
 {
-  "name": "i-want-typescript",
+  "name": "projet-cloud-devops",
   "version": "1.0.0",
-  "description": "📜 Template repository for a new Node.js TypeScript project linted using ESLint with Prettier",
+  "description": "📜 Projet Cloud DevOps de Mansour Chaouki :)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "moduleDirectories": [
@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/khannurien/i-want-typescript.git"
   },
-  "author": "Vincent Lannurien",
+  "author": "MANSOUR Chaouki",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/khannurien/i-want-typescript/issues"
