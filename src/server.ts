@@ -41,7 +41,7 @@ app.get("/api/v1/osInfo", async (req, res) => {
 });
 
 app.get("*", (req, res) => {
-  res.status(404).json({ error: "Not found" });
+  res.status(404).json("on est sur l'app sysinfo");
 });
 
 export { app, port };
